@@ -18,9 +18,10 @@ group :doc do
 end
 
 group :development do
-  gem 'quiet_assets'
-  gem 'pry'
-  gem 'sqlite3'
+  gem "pry"
+  gem "quiet_assets"
+  gem "rails-erd"
+  gem "sqlite3"
 end
 
 group :production do
