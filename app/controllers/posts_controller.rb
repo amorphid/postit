@@ -1,5 +1,5 @@
 class PostsController < ApplicationController
-  before_filter :set_post, [:edit, :shot, :update]
+  before_action :set_post, only: [:edit, :show, :update]
 
   def create
     @post = Post.new(params[:post])
@@ -12,7 +12,6 @@ class PostsController < ApplicationController
   end
 
   def edit
-    @post = Post.find(params[:id])
   end
 
   def index
@@ -24,12 +23,14 @@ class PostsController < ApplicationController
   end
 
   def show
-    @post = Post.find(params[:id])
   end
 
   def update
     if @post = Post.update_attributes(params[:post])
       redirect_to @post, notice: "Post updated sucessfully"
+    else
+      render "edit"
+    end
   end
 
 private
@@ -39,5 +40,6 @@ private
   end
 
   def entry_params
+    params[:entry].permit(:title, :url)
   end
 end
