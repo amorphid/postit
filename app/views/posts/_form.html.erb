@@ -1,0 +1,17 @@
+<%= form_for @post do |i| %>
+  <%= render "errors" %>
+
+  <p>
+    <%= i.label :title %>
+    <%= i.text_field :title %>
+  </p>
+
+  <p>
+    <%= i.label :url %>
+    <%= i.text_field :url %>
+  </p>
+
+  <p>
+    <%= i.submit "Submit" %>
+  </p>
+<% end %>

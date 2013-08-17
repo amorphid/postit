@@ -2,10 +2,10 @@ class PostsController < ApplicationController
   before_action :set_post, only: [:edit, :show, :update]
 
   def create
-    @post = Post.new(params[:post])
+    @post = Post.new(params_post)
 
     if @post.save
-      redirect_to @post, notice: "Post created successfully"
+      redirect_to post_path(@path), notice: "Post created successfully"
     else
       render "new"
     end
@@ -26,7 +26,7 @@ class PostsController < ApplicationController
   end
 
   def update
-    if @post = Post.update_attributes(params[:post])
+    if @post.update_attributes(params_post)
       redirect_to @post, notice: "Post updated sucessfully"
     else
       render "edit"
@@ -39,7 +39,7 @@ private
     @post = Post.find(params[:id])
   end
 
-  def entry_params
-    params[:entry].permit(:title, :url)
+  def params_post
+    params[:post].permit(:title, :url)
   end
 end
