@@ -1,7 +1,8 @@
 class CommentsController < ApplicationController
   def create
-    @post    = Post.find(params[:post_id])
-    @comment = Comment.new(comment_params)
+    @post     = Post.find(params[:post_id])
+    @comment  = Comment.new(comment_params)
+    @comments = @post.comments # requires for "posts/show"
     @comment.post = @post
 
     if @comment.save

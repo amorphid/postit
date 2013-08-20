@@ -3,5 +3,7 @@ PostitTemplate::Application.routes.draw do
     resources :comments, only: :create
   end
 
+  resources :categories, except: [:destroy, :show]
+
   root to: 'posts#index'
 end
