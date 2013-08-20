@@ -12,3 +12,13 @@
   URL:
   <%= @post.url %>
 </p>
+
+<%= render "comments/form" %>
+
+<ul>
+  <% @comments.each do |comment| %>
+    <li>
+      <%= comment.body %>
+    </li>
+  <% end %>
+</ul>
