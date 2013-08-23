@@ -1,0 +1,25 @@
+<%= form_for @category do |i| %>
+  <% if @category.errors.any? %>
+    <p>
+      <%= pluralize(@category.errors.count, "error") %>
+      prohibited this post from being saved:
+    </p>
+
+    <ul>
+      <% @category.errors.full_messages.each do |msg| %>
+        <li>
+          <%= msg %>
+        </li>
+      <% end %>
+    </ul>
+  <% end %>
+
+  <p>
+    <%= i.label :name %>
+    <%= i.text_field :name %>
+  </p>
+
+  <p>
+    <%= i.submit "Submit" %>
+  </p>
+<% end %>
