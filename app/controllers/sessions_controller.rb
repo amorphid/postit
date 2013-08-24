@@ -4,7 +4,7 @@ class SessionsController < ApplicationController
 
     if user && user.authenticate(params[:password])
       session[:user_id] = user.id
-      redirect_to :back, notice: "Session created successfully"
+      redirect_to root_path, notice: "Session created successfully"
     else
       render "new"
     end
@@ -13,5 +13,8 @@ class SessionsController < ApplicationController
   def destroy
     session[:user_id] = nil
     redirect_to root_path, notice: "Session destroyed successfully"
+  end
+
+  def new
   end
 end

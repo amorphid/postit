@@ -3,10 +3,8 @@
 <ul>
   <% @posts.each do |post| %>
     <li>
-      <%= link_to post.title, "#{post.url}", target: "_blank" %>
-      <% if current_user %>
-      	<%= link_to "edit", edit_post_path(@post) %>
-      <% end %>
+      <%= link_to post.title, "#{post.url}" %><br />
+      <%= link_to "#{pluralize(post.comments.count, "comment")}", post_path(post) %>
     </li>
   <% end %>
 </ul>
