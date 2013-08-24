@@ -4,6 +4,9 @@
   <% @posts.each do |post| %>
     <li>
       <%= link_to post.title, "#{post.url}", target: "_blank" %>
+      <% if current_user %>
+      	<%= link_to "edit", edit_post_path(@post) %>
+      <% end %>
     </li>
   <% end %>
 </ul>

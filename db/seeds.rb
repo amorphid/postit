@@ -6,13 +6,13 @@
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
-posts = Post.create([
-    {
-      title: "Bananas actually in pajamas!",
-      url: "http://i.imgur.com/wfPdT.jpg"
-    },
-    {
-      title: "Stairway To Heaven (original version)",
-      url: "http://amightywind.com/gif/heavenstairway.jpg"
-    }
-])
+# posts = Post.create([
+#     {
+#       title: "Bananas actually in pajamas!",
+#       url: "http://i.imgur.com/wfPdT.jpg"
+#     },
+#     {
+#       title: "Stairway To Heaven (original version)",
+#       url: "http://amightywind.com/gif/heavenstairway.jpg"
+#     }
+# ])

@@ -7047,3 +7047,2569 @@ Processing by PostsController#index as HTML
   Rendered layouts/_navigation.html.erb (0.7ms)
   Rendered layouts/_messages.html.erb (0.2ms)
 Completed 200 OK in 111ms (Views: 68.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/sessions/new" for 127.0.0.1 at 2013-08-24 10:33:00 -0700
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_navigation.html.erb (0.7ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 66ms (Views: 64.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/sessions/new" for 127.0.0.1 at 2013-08-24 10:33:05 -0700
+
+ActionController::RoutingError (No route matches [POST] "/sessions/new"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  quiet_assets (1.0.2) lib/quiet_assets.rb:18:in `call_with_quiet_assets'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/amorphid/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/amorphid/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/amorphid/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.5ms)
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.5ms)
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (37.2ms)
+
+
+Started POST "/sessions/new" for 127.0.0.1 at 2013-08-24 10:33:22 -0700
+
+ActionController::RoutingError (No route matches [POST] "/sessions/new"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  quiet_assets (1.0.2) lib/quiet_assets.rb:18:in `call_with_quiet_assets'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/amorphid/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/amorphid/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/amorphid/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.3ms)
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (30.5ms)
+
+
+Started POST "/sessions/new" for 127.0.0.1 at 2013-08-24 10:33:43 -0700
+
+ActionController::RoutingError (No route matches [POST] "/sessions/new"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  quiet_assets (1.0.2) lib/quiet_assets.rb:18:in `call_with_quiet_assets'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/amorphid/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/amorphid/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/amorphid/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.2ms)
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.5ms)
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (36.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-24 12:52:05 -0700
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.1ms)[0m  SELECT "posts".* FROM "posts"
+  Rendered posts/index.html.erb within layouts/application (13.8ms)
+  Rendered layouts/_navigation.html.erb (1.0ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 177ms (Views: 158.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-24 12:52:43 -0700
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_navigation.html.erb (1.0ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 47ms (Views: 46.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/sign_out" for 127.0.0.1 at 2013-08-24 12:52:45 -0700
+
+ActionController::RoutingError (No route matches [GET] "/sign_out"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  quiet_assets (1.0.2) lib/quiet_assets.rb:18:in `call_with_quiet_assets'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/amorphid/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/amorphid/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/amorphid/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.2ms)
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (37.2ms)
+
+
+Started GET "/sign_out" for 127.0.0.1 at 2013-08-24 12:52:45 -0700
+
+ActionController::RoutingError (No route matches [GET] "/sign_out"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  quiet_assets (1.0.2) lib/quiet_assets.rb:18:in `call_with_quiet_assets'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/amorphid/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/amorphid/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/amorphid/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.9ms)
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.7ms)
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (39.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-24 12:54:24 -0700
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts"
+  Rendered posts/index.html.erb within layouts/application (1.2ms)
+  Rendered layouts/_navigation.html.erb (1.0ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 74ms (Views: 73.1ms | ActiveRecord: 0.2ms)
+
+
+Started DELETE "/sign_out" for 127.0.0.1 at 2013-08-24 12:54:25 -0700
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"DGYiS3uhbky731veevaVJ9Yb7sRy8e1p7Gp1ieTC9YU="}
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-24 12:54:25 -0700
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_navigation.html.erb (0.8ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 77ms (Views: 75.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/sign_in" for 127.0.0.1 at 2013-08-24 12:54:28 -0700
+
+ActionController::RoutingError (uninitialized constant SessnionController):
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:226:in `const_get'
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:226:in `block in constantize'
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:224:in `each'
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:224:in `inject'
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:224:in `constantize'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:76:in `controller_reference'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:66:in `controller'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:44:in `call'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:655:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  activerecord (4.0.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+  activerecord (4.0.0) lib/active_record/migration.rb:369:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:373:in `_run__929759646984521392__call__callbacks'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  quiet_assets (1.0.2) lib/quiet_assets.rb:18:in `call_with_quiet_assets'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/amorphid/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/amorphid/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/amorphid/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.9ms)
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.8ms)
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (29.5ms)
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (84.6ms)
+
+
+Started GET "/sign_in" for 127.0.0.1 at 2013-08-24 12:54:28 -0700
+
+ActionController::RoutingError (uninitialized constant SessnionController):
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:226:in `const_get'
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:226:in `block in constantize'
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:224:in `each'
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:224:in `inject'
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:224:in `constantize'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:76:in `controller_reference'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:66:in `controller'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:44:in `call'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:655:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  activerecord (4.0.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+  activerecord (4.0.0) lib/active_record/migration.rb:369:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:373:in `_run__929759646984521392__call__callbacks'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  quiet_assets (1.0.2) lib/quiet_assets.rb:18:in `call_with_quiet_assets'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/amorphid/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/amorphid/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/amorphid/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.9ms)
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.1ms)
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (58.9ms)
+
+
+Started GET "/sign_in" for 127.0.0.1 at 2013-08-24 12:54:52 -0700
+
+ActionController::RoutingError (uninitialized constant SessnionController):
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:226:in `const_get'
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:226:in `block in constantize'
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:224:in `each'
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:224:in `inject'
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:224:in `constantize'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:76:in `controller_reference'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:66:in `controller'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:44:in `call'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:655:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  activerecord (4.0.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+  activerecord (4.0.0) lib/active_record/migration.rb:369:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:373:in `_run__929759646984521392__call__callbacks'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  quiet_assets (1.0.2) lib/quiet_assets.rb:18:in `call_with_quiet_assets'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/amorphid/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/amorphid/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/amorphid/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.3ms)
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (49.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-24 12:54:55 -0700
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.1ms)[0m  SELECT "posts".* FROM "posts"
+  Rendered posts/index.html.erb within layouts/application (14.2ms)
+  Rendered layouts/_navigation.html.erb (0.6ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 70ms (Views: 63.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/sign_in" for 127.0.0.1 at 2013-08-24 12:54:56 -0700
+
+ActionController::RoutingError (uninitialized constant SessnionController):
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:226:in `const_get'
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:226:in `block in constantize'
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:224:in `each'
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:224:in `inject'
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:224:in `constantize'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:76:in `controller_reference'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:66:in `controller'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:44:in `call'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:655:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  activerecord (4.0.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+  activerecord (4.0.0) lib/active_record/migration.rb:369:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:373:in `_run__929759646984521392__call__callbacks'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  quiet_assets (1.0.2) lib/quiet_assets.rb:18:in `call_with_quiet_assets'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/amorphid/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/amorphid/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/amorphid/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.9ms)
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.0ms)
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (56.1ms)
+
+
+Started GET "/sign_in" for 127.0.0.1 at 2013-08-24 12:54:56 -0700
+
+ActionController::RoutingError (uninitialized constant SessnionController):
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:226:in `const_get'
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:226:in `block in constantize'
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:224:in `each'
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:224:in `inject'
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:224:in `constantize'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:76:in `controller_reference'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:66:in `controller'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:44:in `call'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:655:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  activerecord (4.0.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+  activerecord (4.0.0) lib/active_record/migration.rb:369:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:373:in `_run__929759646984521392__call__callbacks'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  quiet_assets (1.0.2) lib/quiet_assets.rb:18:in `call_with_quiet_assets'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/amorphid/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/amorphid/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/amorphid/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.3ms)
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.0ms)
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (32.3ms)
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (86.2ms)
+
+
+Started GET "/sign_in" for 127.0.0.1 at 2013-08-24 12:55:08 -0700
+
+ActionController::RoutingError (uninitialized constant SessnionsController):
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:226:in `const_get'
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:226:in `block in constantize'
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:224:in `each'
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:224:in `inject'
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:224:in `constantize'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:76:in `controller_reference'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:66:in `controller'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:44:in `call'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:655:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  activerecord (4.0.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+  activerecord (4.0.0) lib/active_record/migration.rb:369:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:373:in `_run__929759646984521392__call__callbacks'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  quiet_assets (1.0.2) lib/quiet_assets.rb:18:in `call_with_quiet_assets'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/amorphid/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/amorphid/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/amorphid/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.8ms)
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (44.5ms)
+
+
+Started GET "/sign_in" for 127.0.0.1 at 2013-08-24 12:55:10 -0700
+
+ActionController::RoutingError (uninitialized constant SessnionsController):
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:226:in `const_get'
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:226:in `block in constantize'
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:224:in `each'
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:224:in `inject'
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:224:in `constantize'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:76:in `controller_reference'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:66:in `controller'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:44:in `call'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:655:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  activerecord (4.0.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+  activerecord (4.0.0) lib/active_record/migration.rb:369:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:373:in `_run__929759646984521392__call__callbacks'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  quiet_assets (1.0.2) lib/quiet_assets.rb:18:in `call_with_quiet_assets'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/amorphid/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/amorphid/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/amorphid/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.7ms)
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (43.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-24 12:55:32 -0700
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (13.3ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 71ms (Views: 65.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/sign_in" for 127.0.0.1 at 2013-08-24 12:55:34 -0700
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (48.2ms)
+Completed 500 Internal Server Error in 52ms
+
+ActionView::Template::Error (undefined local variable or method `sessions_path' for #<#<Class:0x007fa4f753eac8>:0x007fa4f753dab0>):
+    1: <h1>New Session</h1>
+    2: 
+    3: <%= form_for(:session, url: sessions_path) do |i| %>
+    4:   <p>
+    5:     <%= i.label :username %>
+    6:     <%= i.text_field :username %>
+  app/views/sessions/new.html.erb:3:in `_app_views_sessions_new_html_erb___589970964170714631_70173250413420'
+
+
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (12.0ms)
+
+
+Started GET "/sign_in" for 127.0.0.1 at 2013-08-24 12:55:34 -0700
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (13.4ms)
+Completed 500 Internal Server Error in 18ms
+
+ActionView::Template::Error (undefined local variable or method `sessions_path' for #<#<Class:0x007fa4f753eac8>:0x007fa4f732f638>):
+    1: <h1>New Session</h1>
+    2: 
+    3: <%= form_for(:session, url: sessions_path) do |i| %>
+    4:   <p>
+    5:     <%= i.label :username %>
+    6:     <%= i.text_field :username %>
+  app/views/sessions/new.html.erb:3:in `_app_views_sessions_new_html_erb___589970964170714631_70173249334760'
+
+
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (12.2ms)
+
+
+Started GET "/sign_in" for 127.0.0.1 at 2013-08-24 12:56:16 -0700
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_navigation.html.erb (0.4ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 47ms (Views: 45.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/sign_in" for 127.0.0.1 at 2013-08-24 12:56:22 -0700
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"DGYiS3uhbky731veevaVJ9Yb7sRy8e1p7Gp1ieTC9YU=", "/sign_in"=>{"username"=>"jim", "password"=>"[FILTERED]"}, "commit"=>"Submit"}
+Completed 500 Internal Server Error in 62ms
+
+NoMethodError (undefined method `[]' for nil:NilClass):
+  app/controllers/sessions_controller.rb:3:in `create'
+
+
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (20.2ms)
+
+
+Started POST "/sign_in" for 127.0.0.1 at 2013-08-24 12:56:49 -0700
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"DGYiS3uhbky731veevaVJ9Yb7sRy8e1p7Gp1ieTC9YU=", "/sign_in"=>{"username"=>"jim", "password"=>"[FILTERED]"}, "commit"=>"Submit"}
+Completed 500 Internal Server Error in 73903ms
+
+NoMethodError (undefined method `[]' for nil:NilClass):
+  app/controllers/sessions_controller.rb:4:in `create'
+
+
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.7ms)
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (20.8ms)
+
+
+Started POST "/sign_in" for 127.0.0.1 at 2013-08-24 12:58:11 -0700
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"DGYiS3uhbky731veevaVJ9Yb7sRy8e1p7Gp1ieTC9YU=", "/sign_in"=>{"username"=>"jim", "password"=>"[FILTERED]"}, "commit"=>"Submit"}
+Completed 500 Internal Server Error in 4201ms
+
+NoMethodError (undefined method `[]' for nil:NilClass):
+  app/controllers/sessions_controller.rb:4:in `create'
+
+
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.8ms)
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (17.2ms)
+
+
+Started POST "/sign_in" for 127.0.0.1 at 2013-08-24 12:59:44 -0700
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"DGYiS3uhbky731veevaVJ9Yb7sRy8e1p7Gp1ieTC9YU=", "/sign_in"=>{"username"=>"jim", "password"=>"[FILTERED]"}, "commit"=>"Submit"}
+Completed 500 Internal Server Error in 26505ms
+
+NoMethodError (undefined method `[]' for nil:NilClass):
+  app/controllers/sessions_controller.rb:4:in `create'
+
+
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.5ms)
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (16.3ms)
+
+
+Started GET "/sign_in" for 127.0.0.1 at 2013-08-24 13:00:11 -0700
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (11.2ms)
+Completed 500 Internal Server Error in 14ms
+
+ActionView::Template::Error (undefined method `/sign_in_path' for #<#<Class:0x007fa4f744b788>:0x007fa4f7449668>):
+    1: <h1>New Session</h1>
+    2: 
+    3: <%= form_tag :"/sign_in" do %>
+    4:   <p>
+    5:     <%= label_tag :username %>
+    6:     <%= text_field_tag :username %>
+  app/views/sessions/new.html.erb:3:in `_app_views_sessions_new_html_erb___589970964170714631_70173249935420'
+
+
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.9ms)
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (11.3ms)
+
+
+Started GET "/sign_in" for 127.0.0.1 at 2013-08-24 13:00:11 -0700
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (37.5ms)
+Completed 500 Internal Server Error in 40ms
+
+ActionView::Template::Error (undefined method `/sign_in_path' for #<#<Class:0x007fa4f744b788>:0x007fa4f76748c0>):
+    1: <h1>New Session</h1>
+    2: 
+    3: <%= form_tag :"/sign_in" do %>
+    4:   <p>
+    5:     <%= label_tag :username %>
+    6:     <%= text_field_tag :username %>
+  app/views/sessions/new.html.erb:3:in `_app_views_sessions_new_html_erb___589970964170714631_70173249935420'
+
+
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (10.6ms)
+
+
+Started GET "/sign_in" for 127.0.0.1 at 2013-08-24 13:00:11 -0700
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (9.9ms)
+Completed 500 Internal Server Error in 13ms
+
+ActionView::Template::Error (undefined method `/sign_in_path' for #<#<Class:0x007fa4f744b788>:0x007fa4f731d5c8>):
+    1: <h1>New Session</h1>
+    2: 
+    3: <%= form_tag :"/sign_in" do %>
+    4:   <p>
+    5:     <%= label_tag :username %>
+    6:     <%= text_field_tag :username %>
+  app/views/sessions/new.html.erb:3:in `_app_views_sessions_new_html_erb___589970964170714631_70173249935420'
+
+
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (12.5ms)
+
+
+Started GET "/sign_in" for 127.0.0.1 at 2013-08-24 13:00:11 -0700
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (8.1ms)
+Completed 500 Internal Server Error in 10ms
+
+ActionView::Template::Error (undefined method `/sign_in_path' for #<#<Class:0x007fa4f744b788>:0x007fa4f7528a48>):
+    1: <h1>New Session</h1>
+    2: 
+    3: <%= form_tag :"/sign_in" do %>
+    4:   <p>
+    5:     <%= label_tag :username %>
+    6:     <%= text_field_tag :username %>
+  app/views/sessions/new.html.erb:3:in `_app_views_sessions_new_html_erb___589970964170714631_70173249935420'
+
+
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (31.4ms)
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (41.4ms)
+
+
+Started DELETE "/sign_out" for 127.0.0.1 at 2013-08-24 13:00:11 -0700
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"DGYiS3uhbky731veevaVJ9Yb7sRy8e1p7Gp1ieTC9YU="}
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-24 13:00:11 -0700
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.1ms)[0m  SELECT "posts".* FROM "posts"
+  Rendered posts/index.html.erb within layouts/application (14.5ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 66ms (Views: 59.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/sign_in" for 127.0.0.1 at 2013-08-24 13:00:14 -0700
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (14.4ms)
+Completed 500 Internal Server Error in 18ms
+
+ActionView::Template::Error (undefined method `/sign_in_path' for #<#<Class:0x007fa4f744b788>:0x007fa4f471a408>):
+    1: <h1>New Session</h1>
+    2: 
+    3: <%= form_tag :"/sign_in" do %>
+    4:   <p>
+    5:     <%= label_tag :username %>
+    6:     <%= text_field_tag :username %>
+  app/views/sessions/new.html.erb:3:in `_app_views_sessions_new_html_erb___589970964170714631_70173249935420'
+
+
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (12.4ms)
+
+
+Started GET "/sign_in" for 127.0.0.1 at 2013-08-24 13:00:14 -0700
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (14.6ms)
+Completed 500 Internal Server Error in 17ms
+
+ActionView::Template::Error (undefined method `/sign_in_path' for #<#<Class:0x007fa4f744b788>:0x007fa4f7411a88>):
+    1: <h1>New Session</h1>
+    2: 
+    3: <%= form_tag :"/sign_in" do %>
+    4:   <p>
+    5:     <%= label_tag :username %>
+    6:     <%= text_field_tag :username %>
+  app/views/sessions/new.html.erb:3:in `_app_views_sessions_new_html_erb___589970964170714631_70173249798920'
+
+
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (41.8ms)
+
+
+Started GET "/sign_in" for 127.0.0.1 at 2013-08-24 13:00:34 -0700
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 46ms (Views: 45.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/sign_out" for 127.0.0.1 at 2013-08-24 13:00:43 -0700
+
+ActionController::RoutingError (No route matches [POST] "/sign_out"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  quiet_assets (1.0.2) lib/quiet_assets.rb:18:in `call_with_quiet_assets'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/amorphid/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/amorphid/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/amorphid/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.9ms)
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (33.2ms)
+
+
+Started POST "/sign_out" for 127.0.0.1 at 2013-08-24 13:01:35 -0700
+
+ActionController::RoutingError (No route matches [POST] "/sign_out"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  quiet_assets (1.0.2) lib/quiet_assets.rb:18:in `call_with_quiet_assets'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/amorphid/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/amorphid/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/amorphid/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.7ms)
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (30.5ms)
+
+
+Started POST "/sign_out" for 127.0.0.1 at 2013-08-24 13:02:08 -0700
+
+ActionController::RoutingError (No route matches [POST] "/sign_out"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  quiet_assets (1.0.2) lib/quiet_assets.rb:18:in `call_with_quiet_assets'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/amorphid/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/amorphid/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/amorphid/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.9ms)
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.4ms)
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (29.6ms)
+
+
+Started GET "/sign_in" for 127.0.0.1 at 2013-08-24 13:02:19 -0700
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_navigation.html.erb (1.1ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 62ms (Views: 60.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/sign_in" for 127.0.0.1 at 2013-08-24 13:02:21 -0700
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"DGYiS3uhbky731veevaVJ9Yb7sRy8e1p7Gp1ieTC9YU=", "username"=>"", "password"=>"[FILTERED]", "commit"=>"Submit"}
+Completed 500 Internal Server Error in 9418ms
+
+NoMethodError (undefined method `[]' for nil:NilClass):
+  app/controllers/sessions_controller.rb:4:in `create'
+
+
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.9ms)
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (18.9ms)
+
+
+Started POST "/sign_in" for 127.0.0.1 at 2013-08-24 13:02:30 -0700
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"DGYiS3uhbky731veevaVJ9Yb7sRy8e1p7Gp1ieTC9YU=", "username"=>"", "password"=>"[FILTERED]", "commit"=>"Submit"}
+Completed 500 Internal Server Error in 2153ms
+
+NoMethodError (undefined method `[]' for nil:NilClass):
+  app/controllers/sessions_controller.rb:4:in `create'
+
+
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.6ms)
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.5ms)
+
+
+Started POST "/sign_in" for 127.0.0.1 at 2013-08-24 13:02:44 -0700
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"DGYiS3uhbky731veevaVJ9Yb7sRy8e1p7Gp1ieTC9YU=", "username"=>"jim", "password"=>"[FILTERED]", "commit"=>"Submit"}
+Completed 500 Internal Server Error in 7290ms
+
+NoMethodError (undefined method `[]' for nil:NilClass):
+  app/controllers/sessions_controller.rb:4:in `create'
+
+
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.6ms)
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.4ms)
+
+
+Started POST "/sign_in" for 127.0.0.1 at 2013-08-24 13:03:19 -0700
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"DGYiS3uhbky731veevaVJ9Yb7sRy8e1p7Gp1ieTC9YU=", "username"=>"jim", "password"=>"[FILTERED]", "commit"=>"Submit"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."username" = 'jim' LIMIT 1[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 92ms (ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-24 13:03:19 -0700
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.1ms)[0m  SELECT "posts".* FROM "posts"
+  Rendered posts/index.html.erb within layouts/application (13.3ms)
+  Rendered layouts/_navigation.html.erb (0.7ms)
+  Rendered layouts/_messages.html.erb (0.2ms)
+Completed 200 OK in 76ms (Views: 69.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/sign_in" for 127.0.0.1 at 2013-08-24 13:03:22 -0700
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_navigation.html.erb (0.6ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 63ms (Views: 61.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/sign_in" for 127.0.0.1 at 2013-08-24 13:03:29 -0700
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"DGYiS3uhbky731veevaVJ9Yb7sRy8e1p7Gp1ieTC9YU=", "username"=>"jim", "password"=>"[FILTERED]", "commit"=>"Submit"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."username" = 'jim' LIMIT 1[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 73ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-24 13:03:29 -0700
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.1ms)[0m  SELECT "posts".* FROM "posts"
+  Rendered posts/index.html.erb within layouts/application (0.8ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+  Rendered layouts/_messages.html.erb (0.2ms)
+Completed 200 OK in 46ms (Views: 45.5ms | ActiveRecord: 0.1ms)
+
+
+Started DELETE "/sign_out" for 127.0.0.1 at 2013-08-24 13:03:33 -0700
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"DGYiS3uhbky731veevaVJ9Yb7sRy8e1p7Gp1ieTC9YU="}
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-24 13:03:33 -0700
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_navigation.html.erb (0.4ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 47ms (Views: 45.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2013-08-24 13:03:35 -0700
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (3.5ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 100ms (Views: 98.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2013-08-24 13:03:46 -0700
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"DGYiS3uhbky731veevaVJ9Yb7sRy8e1p7Gp1ieTC9YU=", "user"=>{"username"=>"amorphid", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Submit"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."username" = 'amorphid' LIMIT 1[0m
+Binary data inserted for `string` type on column `password_digest`
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "users" ("created_at", "password_digest", "updated_at", "username") VALUES (?, ?, ?, ?)  [["created_at", Sat, 24 Aug 2013 20:03:46 UTC +00:00], ["password_digest", "$2a$10$SWixbb2ARPWIqoVTQbCdceNH5YCkKOSn05010vo.v/ofJwI4prkFq"], ["updated_at", Sat, 24 Aug 2013 20:03:46 UTC +00:00], ["username", "amorphid"]]
+  [1m[36m (1.7ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/posts
+Completed 302 Found in 79ms (ActiveRecord: 2.5ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2013-08-24 13:03:46 -0700
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts"
+  Rendered posts/index.html.erb within layouts/application (1.1ms)
+  Rendered layouts/_navigation.html.erb (0.6ms)
+  Rendered layouts/_messages.html.erb (0.2ms)
+Completed 200 OK in 68ms (Views: 66.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/sign_in" for 127.0.0.1 at 2013-08-24 13:03:55 -0700
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 71ms (Views: 70.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/sign_in" for 127.0.0.1 at 2013-08-24 13:03:59 -0700
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"DGYiS3uhbky731veevaVJ9Yb7sRy8e1p7Gp1ieTC9YU=", "username"=>"amorphid", "password"=>"[FILTERED]", "commit"=>"Submit"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."username" = 'amorphid' LIMIT 1[0m
+  Rendered sessions/new.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 122ms (Views: 48.8ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/sign_in" for 127.0.0.1 at 2013-08-24 13:04:05 -0700
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"DGYiS3uhbky731veevaVJ9Yb7sRy8e1p7Gp1ieTC9YU=", "username"=>"amorphid", "password"=>"[FILTERED]", "commit"=>"Submit"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."username" = 'amorphid' LIMIT 1
+Redirected to http://localhost:3000/
+Completed 302 Found in 72ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-24 13:04:05 -0700
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (0.9ms)
+  Rendered layouts/_navigation.html.erb (0.4ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 47ms (Views: 46.4ms | ActiveRecord: 0.2ms)
+
+
+Started DELETE "/sign_out" for 127.0.0.1 at 2013-08-24 13:22:31 -0700
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"DGYiS3uhbky731veevaVJ9Yb7sRy8e1p7Gp1ieTC9YU="}
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-24 13:22:31 -0700
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts"
+  Rendered posts/index.html.erb within layouts/application (0.9ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+  Rendered layouts/_messages.html.erb (0.2ms)
+Completed 200 OK in 55ms (Views: 54.7ms | ActiveRecord: 0.2ms)
+
+
+Started DELETE "/sign_out" for 127.0.0.1 at 2013-08-24 13:40:42 -0700
+
+SyntaxError (/Users/amorphid/Dropbox/code/rails/postit/app/controllers/application_controller.rb:13: syntax error, unexpected ')', expecting ']'):
+  app/controllers/sessions_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.1ms)
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.5ms)
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.1ms)
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (25.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-24 13:41:44 -0700
+
+SyntaxError (/Users/amorphid/Dropbox/code/rails/postit/app/controllers/application_controller.rb:13: syntax error, unexpected ')', expecting ']'):
+  app/controllers/posts_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (51.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-24 13:42:01 -0700
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (14.8ms)
+  Rendered layouts/_navigation.html.erb (1.3ms)
+  Rendered layouts/_messages.html.erb (0.2ms)
+Completed 200 OK in 119ms (Views: 112.7ms | ActiveRecord: 0.6ms)
+
+
+Started DELETE "/sign_out" for 127.0.0.1 at 2013-08-24 13:42:03 -0700
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"DGYiS3uhbky731veevaVJ9Yb7sRy8e1p7Gp1ieTC9YU="}
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-24 13:42:03 -0700
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts"
+  Rendered posts/index.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_navigation.html.erb (0.4ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 47ms (Views: 45.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-24 13:42:25 -0700
+Processing by PostsController#index as HTML
+Completed 404 Not Found in 9ms
+
+ActiveRecord::RecordNotFound (Couldn't find User without an ID):
+  app/controllers/application_controller.rb:13:in `current_user'
+  app/controllers/application_controller.rb:7:in `authenticate_user'
+
+
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-24 13:43:59 -0700
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (15.0ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 82ms (Views: 74.0ms | ActiveRecord: 0.6ms)
+
+
+Started DELETE "/sign_out" for 127.0.0.1 at 2013-08-24 13:44:01 -0700
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"DGYiS3uhbky731veevaVJ9Yb7sRy8e1p7Gp1ieTC9YU="}
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-24 13:44:01 -0700
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts"
+  Rendered posts/index.html.erb within layouts/application (1.1ms)
+  Rendered layouts/_navigation.html.erb (0.6ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 52ms (Views: 50.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-24 13:44:19 -0700
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_navigation.html.erb (0.4ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 49ms (Views: 47.9ms | ActiveRecord: 0.1ms)
+  [1m[36m (1.6ms)[0m  [1mCREATE TABLE "categories" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35m (1.5ms)[0m  CREATE TABLE "comments" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "post_id" integer, "user_id" integer, "body" varchar(255), "created_at" datetime, "updated_at" datetime) 
+  [1m[36m (1.5ms)[0m  [1mCREATE TABLE "post_categories" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "category_id" integer, "post_id" integer, "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35m (1.4ms)[0m  CREATE TABLE "posts" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "url" varchar(255), "user_id" integer, "created_at" datetime, "updated_at" datetime) 
+  [1m[36m (1.3ms)[0m  [1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "username" varchar(255), "created_at" datetime, "updated_at" datetime, "password_digest" varchar(255)) [0m
+  [1m[35m (1.8ms)[0m  CREATE UNIQUE INDEX "index_users_on_username" ON "users" ("username")
+  [1m[36m (1.9ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (2.0ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.2ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (1.3ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20130824164254')
+  [1m[36m (1.3ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20130810155707')[0m
+  [1m[35m (3.6ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20130810193028')
+  [1m[36m (1.5ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20130810193815')[0m
+  [1m[35m (1.4ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20130810194404')
+  [1m[36m (1.4ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20130810195805')[0m
+  [1m[35m (2.7ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20130810200143')
+  [1m[36m (2.4ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20130810212013')[0m
+  [1m[35m (2.2ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20130820211800')
+  [1m[36m (1.8ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20130823233451')[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.3ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-24 13:45:06 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts"
+  Rendered posts/index.html.erb within layouts/application (3.9ms)
+  Rendered layouts/_navigation.html.erb (1.2ms)
+  Rendered layouts/_messages.html.erb (0.6ms)
+Completed 200 OK in 556ms (Views: 483.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-24 13:45:30 -0700
+Processing by PostsController#index as HTML
+Completed 404 Not Found in 36ms
+
+ActiveRecord::RecordNotFound (Couldn't find User without an ID):
+  app/controllers/application_controller.rb:13:in `current_user'
+  app/controllers/application_controller.rb:7:in `authenticate_user'
+
+
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (19.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-24 13:47:57 -0700
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_navigation.html.erb (0.8ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 244ms (Views: 237.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-24 13:48:03 -0700
+Processing by PostsController#index as HTML
+Redirected to http://localhost:3000/sign_in
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/sign_in" for 127.0.0.1 at 2013-08-24 13:48:03 -0700
+Processing by SessionsController#new as HTML
+Redirected to http://localhost:3000/sign_in
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/sign_in" for 127.0.0.1 at 2013-08-24 13:48:03 -0700
+Processing by SessionsController#new as HTML
+Redirected to http://localhost:3000/sign_in
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/sign_in" for 127.0.0.1 at 2013-08-24 13:48:03 -0700
+Processing by SessionsController#new as HTML
+Redirected to http://localhost:3000/sign_in
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/sign_in" for 127.0.0.1 at 2013-08-24 13:48:03 -0700
+Processing by SessionsController#new as HTML
+Redirected to http://localhost:3000/sign_in
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/sign_in" for 127.0.0.1 at 2013-08-24 13:48:03 -0700
+Processing by SessionsController#new as HTML
+Redirected to http://localhost:3000/sign_in
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/sign_in" for 127.0.0.1 at 2013-08-24 13:48:03 -0700
+Processing by SessionsController#new as HTML
+Redirected to http://localhost:3000/sign_in
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/sign_in" for 127.0.0.1 at 2013-08-24 13:48:03 -0700
+Processing by SessionsController#new as HTML
+Redirected to http://localhost:3000/sign_in
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/sign_in" for 127.0.0.1 at 2013-08-24 13:48:03 -0700
+Processing by SessionsController#new as HTML
+Redirected to http://localhost:3000/sign_in
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/sign_in" for 127.0.0.1 at 2013-08-24 13:48:03 -0700
+Processing by SessionsController#new as HTML
+Redirected to http://localhost:3000/sign_in
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/sign_in" for 127.0.0.1 at 2013-08-24 13:48:03 -0700
+Processing by SessionsController#new as HTML
+Redirected to http://localhost:3000/sign_in
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/sign_in" for 127.0.0.1 at 2013-08-24 13:48:03 -0700
+Processing by SessionsController#new as HTML
+Redirected to http://localhost:3000/sign_in
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/sign_in" for 127.0.0.1 at 2013-08-24 13:48:03 -0700
+Processing by SessionsController#new as HTML
+Redirected to http://localhost:3000/sign_in
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/sign_in" for 127.0.0.1 at 2013-08-24 13:48:03 -0700
+Processing by SessionsController#new as HTML
+Redirected to http://localhost:3000/sign_in
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/sign_in" for 127.0.0.1 at 2013-08-24 13:48:03 -0700
+Processing by SessionsController#new as HTML
+Redirected to http://localhost:3000/sign_in
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/sign_in" for 127.0.0.1 at 2013-08-24 13:48:03 -0700
+Processing by SessionsController#new as HTML
+Redirected to http://localhost:3000/sign_in
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/sign_in" for 127.0.0.1 at 2013-08-24 13:48:03 -0700
+Processing by SessionsController#new as HTML
+Redirected to http://localhost:3000/sign_in
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/sign_in" for 127.0.0.1 at 2013-08-24 13:48:03 -0700
+Processing by SessionsController#new as HTML
+Redirected to http://localhost:3000/sign_in
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/sign_in" for 127.0.0.1 at 2013-08-24 13:48:03 -0700
+Processing by SessionsController#new as HTML
+Redirected to http://localhost:3000/sign_in
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/sign_in" for 127.0.0.1 at 2013-08-24 13:48:03 -0700
+Processing by SessionsController#new as HTML
+Redirected to http://localhost:3000/sign_in
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/sign_in" for 127.0.0.1 at 2013-08-24 13:48:03 -0700
+Processing by SessionsController#new as HTML
+Redirected to http://localhost:3000/sign_in
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-24 14:10:13 -0700
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts"
+  Rendered posts/index.html.erb within layouts/application (2.9ms)
+  Rendered layouts/_navigation.html.erb (9.6ms)
+Completed 500 Internal Server Error in 317ms
+
+ActionView::Template::Error (undefined local variable or method `current_user' for #<#<Class:0x007f83c5570ff8>:0x007f83c55703f0>):
+    15:     <%= link_to "Sign In", sign_in_path %>
+    16:   </li>
+    17: 
+    18:   <% if current_user %>
+    19:     <li>
+    20:       <%= link_to "Sign Out", sign_out_path, method: :delete %>
+    21:     </li>
+  app/views/layouts/_navigation.html.erb:18:in `_app_views_layouts__navigation_html_erb___2862387730687456145_70101961596780'
+  app/views/layouts/application.html.erb:19:in `_app_views_layouts_application_html_erb__1435537170809219306_70101959108500'
+
+
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (14.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-24 14:10:54 -0700
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_navigation.html.erb (0.6ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 103ms (Views: 96.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/sign_in" for 127.0.0.1 at 2013-08-24 14:10:58 -0700
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.2ms)
+  Rendered layouts/_navigation.html.erb (1.1ms)
+  Rendered layouts/_messages.html.erb (0.6ms)
+Completed 200 OK in 94ms (Views: 93.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/sign_in" for 127.0.0.1 at 2013-08-24 14:11:14 -0700
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"DGYiS3uhbky731veevaVJ9Yb7sRy8e1p7Gp1ieTC9YU=", "username"=>"amorphid", "password"=>"[FILTERED]", "commit"=>"Submit"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."username" = 'amorphid' LIMIT 1
+  Rendered sessions/new.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 121ms (Views: 85.2ms | ActiveRecord: 0.6ms)
+
+
+Started POST "/sign_in" for 127.0.0.1 at 2013-08-24 14:11:21 -0700
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"DGYiS3uhbky731veevaVJ9Yb7sRy8e1p7Gp1ieTC9YU=", "username"=>"jim", "password"=>"[FILTERED]", "commit"=>"Submit"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."username" = 'jim' LIMIT 1[0m
+  Rendered sessions/new.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 80ms (Views: 78.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2013-08-24 14:11:44 -0700
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (175.4ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 249ms (Views: 247.1ms | ActiveRecord: 0.1ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2013-08-24 14:12:19 -0700
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"DGYiS3uhbky731veevaVJ9Yb7sRy8e1p7Gp1ieTC9YU=", "user"=>{"username"=>"amorphid", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Submit"}
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."username" = 'amorphid' LIMIT 1[0m
+Binary data inserted for `string` type on column `password_digest`
+  [1m[35mSQL (67.2ms)[0m  INSERT INTO "users" ("created_at", "password_digest", "updated_at", "username") VALUES (?, ?, ?, ?)  [["created_at", Sat, 24 Aug 2013 21:12:19 UTC +00:00], ["password_digest", "$2a$10$reI1Dx2AsDTffUoIeWClHuv9DefH2ITb/G8/ngPBjh8DkZijDXOsG"], ["updated_at", Sat, 24 Aug 2013 21:12:19 UTC +00:00], ["username", "amorphid"]]
+  [1m[36m (1.4ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/posts
+Completed 302 Found in 180ms (ActiveRecord: 69.0ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2013-08-24 14:12:20 -0700
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts"
+  Rendered posts/index.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_navigation.html.erb (0.9ms)
+  Rendered layouts/_messages.html.erb (0.2ms)
+Completed 200 OK in 70ms (Views: 68.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/sign_in" for 127.0.0.1 at 2013-08-24 14:12:23 -0700
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.2ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 61ms (Views: 60.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/sign_in" for 127.0.0.1 at 2013-08-24 14:12:27 -0700
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"DGYiS3uhbky731veevaVJ9Yb7sRy8e1p7Gp1ieTC9YU=", "username"=>"amorphid", "password"=>"[FILTERED]", "commit"=>"Submit"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."username" = 'amorphid' LIMIT 1[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 73ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-24 14:12:27 -0700
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts"
+  Rendered posts/index.html.erb within layouts/application (0.6ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered layouts/_navigation.html.erb (1.9ms)
+  Rendered layouts/_messages.html.erb (0.2ms)
+Completed 200 OK in 70ms (Views: 68.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-24 14:13:32 -0700
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts"
+  Rendered posts/index.html.erb within layouts/application (0.6ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered layouts/_navigation.html.erb (2.0ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 70ms (Views: 69.4ms | ActiveRecord: 0.3ms)
+
+
+Started DELETE "/sign_out" for 127.0.0.1 at 2013-08-24 14:13:34 -0700
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"DGYiS3uhbky731veevaVJ9Yb7sRy8e1p7Gp1ieTC9YU="}
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-24 14:13:34 -0700
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts"
+  Rendered posts/index.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_navigation.html.erb (0.6ms)
+  Rendered layouts/_messages.html.erb (0.2ms)
+Completed 200 OK in 82ms (Views: 80.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/sign_in" for 127.0.0.1 at 2013-08-24 14:13:45 -0700
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.8ms)
+  Rendered layouts/_navigation.html.erb (1.0ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 85ms (Views: 84.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/sign_in" for 127.0.0.1 at 2013-08-24 14:13:55 -0700
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"DGYiS3uhbky731veevaVJ9Yb7sRy8e1p7Gp1ieTC9YU=", "username"=>"amorphid", "password"=>"[FILTERED]", "commit"=>"Submit"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."username" = 'amorphid' LIMIT 1[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 72ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-24 14:13:55 -0700
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts"
+  Rendered posts/index.html.erb within layouts/application (0.7ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered layouts/_navigation.html.erb (1.6ms)
+  Rendered layouts/_messages.html.erb (0.2ms)
+Completed 200 OK in 55ms (Views: 53.8ms | ActiveRecord: 0.3ms)
+
+
+Started DELETE "/sign_out" for 127.0.0.1 at 2013-08-24 14:19:26 -0700
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"DGYiS3uhbky731veevaVJ9Yb7sRy8e1p7Gp1ieTC9YU="}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Redirected to http://localhost:3000/
+Completed 302 Found in 20ms (ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-24 14:19:26 -0700
+Processing by PostsController#index as HTML
+Redirected to http://localhost:3000/sign_in
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/sign_in" for 127.0.0.1 at 2013-08-24 14:19:26 -0700
+Processing by SessionsController#new as HTML
+Redirected to http://localhost:3000/sign_in
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/sign_in" for 127.0.0.1 at 2013-08-24 14:19:26 -0700
+Processing by SessionsController#new as HTML
+Redirected to http://localhost:3000/sign_in
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/sign_in" for 127.0.0.1 at 2013-08-24 14:19:26 -0700
+Processing by SessionsController#new as HTML
+Redirected to http://localhost:3000/sign_in
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/sign_in" for 127.0.0.1 at 2013-08-24 14:19:26 -0700
+Processing by SessionsController#new as HTML
+Redirected to http://localhost:3000/sign_in
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/sign_in" for 127.0.0.1 at 2013-08-24 14:19:26 -0700
+Processing by SessionsController#new as HTML
+Redirected to http://localhost:3000/sign_in
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/sign_in" for 127.0.0.1 at 2013-08-24 14:19:26 -0700
+Processing by SessionsController#new as HTML
+Redirected to http://localhost:3000/sign_in
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/sign_in" for 127.0.0.1 at 2013-08-24 14:19:26 -0700
+Processing by SessionsController#new as HTML
+Redirected to http://localhost:3000/sign_in
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/sign_in" for 127.0.0.1 at 2013-08-24 14:19:26 -0700
+Processing by SessionsController#new as HTML
+Redirected to http://localhost:3000/sign_in
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/sign_in" for 127.0.0.1 at 2013-08-24 14:19:26 -0700
+Processing by SessionsController#new as HTML
+Redirected to http://localhost:3000/sign_in
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/sign_in" for 127.0.0.1 at 2013-08-24 14:19:26 -0700
+Processing by SessionsController#new as HTML
+Redirected to http://localhost:3000/sign_in
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/sign_in" for 127.0.0.1 at 2013-08-24 14:19:26 -0700
+Processing by SessionsController#new as HTML
+Redirected to http://localhost:3000/sign_in
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/sign_in" for 127.0.0.1 at 2013-08-24 14:19:26 -0700
+Processing by SessionsController#new as HTML
+Redirected to http://localhost:3000/sign_in
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/sign_in" for 127.0.0.1 at 2013-08-24 14:19:26 -0700
+Processing by SessionsController#new as HTML
+Redirected to http://localhost:3000/sign_in
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/sign_in" for 127.0.0.1 at 2013-08-24 14:19:26 -0700
+Processing by SessionsController#new as HTML
+Redirected to http://localhost:3000/sign_in
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/sign_in" for 127.0.0.1 at 2013-08-24 14:19:26 -0700
+Processing by SessionsController#new as HTML
+Redirected to http://localhost:3000/sign_in
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/sign_in" for 127.0.0.1 at 2013-08-24 14:19:26 -0700
+Processing by SessionsController#new as HTML
+Redirected to http://localhost:3000/sign_in
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/sign_in" for 127.0.0.1 at 2013-08-24 14:19:26 -0700
+Processing by SessionsController#new as HTML
+Redirected to http://localhost:3000/sign_in
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/sign_in" for 127.0.0.1 at 2013-08-24 14:19:26 -0700
+Processing by SessionsController#new as HTML
+Redirected to http://localhost:3000/sign_in
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/sign_in" for 127.0.0.1 at 2013-08-24 14:19:26 -0700
+Processing by SessionsController#new as HTML
+Redirected to http://localhost:3000/sign_in
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-24 14:22:37 -0700
+Processing by PostsController#index as HTML
+Redirected to http://localhost:3000/sign_in
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/sign_in" for 127.0.0.1 at 2013-08-24 14:22:38 -0700
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 43ms (Views: 41.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/sign_in" for 127.0.0.1 at 2013-08-24 14:22:52 -0700
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"DGYiS3uhbky731veevaVJ9Yb7sRy8e1p7Gp1ieTC9YU=", "username"=>"amorphid", "password"=>"[FILTERED]", "commit"=>"Submit"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."username" = 'amorphid' LIMIT 1[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 94ms (ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-24 14:22:52 -0700
+Processing by PostsController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_navigation.html.erb (0.4ms)
+  Rendered layouts/_messages.html.erb (0.3ms)
+Completed 200 OK in 54ms (Views: 46.5ms | ActiveRecord: 0.6ms)
+
+
+Started DELETE "/sign_out" for 127.0.0.1 at 2013-08-24 14:24:07 -0700
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"DGYiS3uhbky731veevaVJ9Yb7sRy8e1p7Gp1ieTC9YU="}
+Redirected to http://localhost:3000/
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-24 14:24:07 -0700
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.1ms)[0m  SELECT "posts".* FROM "posts"
+  Rendered posts/index.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 67ms (Views: 59.7ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2013-08-24 14:24:10 -0700
+Processing by PostsController#new as HTML
+Redirected to http://localhost:3000/sign_in
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/sign_in" for 127.0.0.1 at 2013-08-24 14:24:10 -0700
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.9ms)
+  Rendered layouts/_navigation.html.erb (0.4ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 48ms (Views: 47.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/sign_in" for 127.0.0.1 at 2013-08-24 14:24:20 -0700
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"DGYiS3uhbky731veevaVJ9Yb7sRy8e1p7Gp1ieTC9YU=", "username"=>"amorphid", "password"=>"[FILTERED]", "commit"=>"Submit"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."username" = 'amorphid' LIMIT 1[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 92ms (ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-24 14:24:20 -0700
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts"
+  Rendered posts/index.html.erb within layouts/application (0.6ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered layouts/_navigation.html.erb (2.0ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 80ms (Views: 78.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2013-08-24 14:25:29 -0700
+Processing by PostsController#new as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered posts/_errors.html.erb (0.8ms)
+  Rendered posts/_form.html.erb (26.8ms)
+  Rendered posts/new.html.erb within layouts/application (38.4ms)
+  Rendered layouts/_navigation.html.erb (0.6ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 148ms (Views: 120.5ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-24 14:28:18 -0700
+Processing by PostsController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mPost Load (0.1ms)[0m  SELECT "posts".* FROM "posts"
+  Rendered posts/index.html.erb within layouts/application (1.2ms)
+  Rendered layouts/_navigation.html.erb (0.8ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 102ms (Views: 76.4ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-24 14:28:19 -0700
+Processing by PostsController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts"
+  Rendered posts/index.html.erb within layouts/application (0.8ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 89ms (Views: 86.8ms | ActiveRecord: 0.4ms)
+
+
+Started DELETE "/sign_out" for 127.0.0.1 at 2013-08-24 14:28:21 -0700
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"DGYiS3uhbky731veevaVJ9Yb7sRy8e1p7Gp1ieTC9YU="}
+Redirected to http://localhost:3000/
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-24 14:28:21 -0700
+Processing by PostsController#index as HTML
+Redirected to http://localhost:3000/sign_in
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/sign_in" for 127.0.0.1 at 2013-08-24 14:28:21 -0700
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.8ms)
+  Rendered layouts/_navigation.html.erb (0.4ms)
+  Rendered layouts/_messages.html.erb (0.3ms)
+Completed 200 OK in 74ms (Views: 73.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/sign_in" for 127.0.0.1 at 2013-08-24 14:28:31 -0700
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"DGYiS3uhbky731veevaVJ9Yb7sRy8e1p7Gp1ieTC9YU=", "username"=>"amorphid", "password"=>"[FILTERED]", "commit"=>"Submit"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."username" = 'amorphid' LIMIT 1[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 72ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-24 14:28:31 -0700
+Processing by PostsController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_navigation.html.erb (0.4ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 70ms (Views: 68.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-24 14:29:16 -0700
+Processing by PostsController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (37.2ms)
+Completed 500 Internal Server Error in 40ms
+
+ActionView::Template::Error (undefined local variable or method `current_path' for #<#<Class:0x007f83c4f3dd70>:0x007f83c4f3d348>):
+     8:   <% end %>
+     9: </ul>
+    10: 
+    11: <%= current_path %>
+  app/views/posts/index.html.erb:11:in `_app_views_posts_index_html_erb__2691207253691607392_70101960899340'
+
+
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (10.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-24 14:31:07 -0700
+Processing by PostsController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (33.7ms)
+Completed 500 Internal Server Error in 40ms
+
+ActionView::Template::Error (undefined local variable or method `path' for #<#<Class:0x007f83c4f3dd70>:0x007f83c53ed6b8>):
+     8:   <% end %>
+     9: </ul>
+    10: 
+    11: <%= path %>
+  app/views/posts/index.html.erb:11:in `_app_views_posts_index_html_erb__2691207253691607392_70101963357940'
+
+
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.5ms)
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (12.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-24 14:31:37 -0700
+Processing by PostsController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (1.1ms)
+  Rendered layouts/_navigation.html.erb (0.6ms)
+  Rendered layouts/_messages.html.erb (0.3ms)
+Completed 200 OK in 78ms (Views: 76.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-24 14:31:47 -0700
+Processing by PostsController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 52ms (Views: 50.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-24 14:31:55 -0700
+Processing by PostsController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 54ms (Views: 51.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-24 14:35:18 -0700
+Processing by PostsController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (2.4ms)
+  Rendered layouts/_navigation.html.erb (0.4ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 144ms (Views: 70.9ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/sign_in" for 127.0.0.1 at 2013-08-24 14:35:24 -0700
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.5ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered layouts/_navigation.html.erb (1.6ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 79ms (Views: 77.9ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/sign_in" for 127.0.0.1 at 2013-08-24 14:35:37 -0700
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"DGYiS3uhbky731veevaVJ9Yb7sRy8e1p7Gp1ieTC9YU=", "username"=>"amorphid", "password"=>"[FILTERED]", "commit"=>"Submit"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."username" = 'amorphid' LIMIT 1[0m
+Redirected to 
+Completed 500 Internal Server Error in 72ms
+
+ActionController::ActionControllerError (Cannot redirect to nil!):
+  app/controllers/sessions_controller.rb:7:in `create'
+
+
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.1ms)
+
+
+Started POST "/sign_in" for 127.0.0.1 at 2013-08-24 14:42:09 -0700
+
+SyntaxError (/Users/amorphid/Dropbox/code/rails/postit/app/controllers/application_controller.rb:22: syntax error, unexpected keyword_end, expecting end-of-input):
+  app/controllers/sessions_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.3ms)
+
+
+Started POST "/sign_in" for 127.0.0.1 at 2013-08-24 14:42:31 -0700
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"DGYiS3uhbky731veevaVJ9Yb7sRy8e1p7Gp1ieTC9YU=", "username"=>"amorphid", "password"=>"[FILTERED]", "commit"=>"Submit"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."username" = 'amorphid' LIMIT 1
+Completed 500 Internal Server Error in 104ms
+
+NameError (undefined local variable or method `set_direct' for #<SessionsController:0x007f83c42b3e38>):
+  app/controllers/sessions_controller.rb:7:in `create'
+
+
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.9ms)
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.9ms)
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /Users/amorphid/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (19.9ms)
+
+
+Started GET "/sign_in" for 127.0.0.1 at 2013-08-24 14:42:56 -0700
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.8ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered layouts/_navigation.html.erb (22.3ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 235ms (Views: 233.7ms | ActiveRecord: 0.6ms)
+
+
+Started POST "/sign_in" for 127.0.0.1 at 2013-08-24 14:43:04 -0700
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"DGYiS3uhbky731veevaVJ9Yb7sRy8e1p7Gp1ieTC9YU=", "username"=>"amorphid", "password"=>"[FILTERED]", "commit"=>"Submit"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."username" = 'amorphid' LIMIT 1
+Redirected to http://localhost:3000/
+Completed 302 Found in 75ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-24 14:43:04 -0700
+Processing by PostsController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mPost Load (0.1ms)[0m  SELECT "posts".* FROM "posts"
+  Rendered posts/index.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_navigation.html.erb (0.6ms)
+  Rendered layouts/_messages.html.erb (0.2ms)
+Completed 200 OK in 85ms (Views: 59.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2013-08-24 14:43:10 -0700
+Processing by PostsController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered posts/_errors.html.erb (0.1ms)
+  Rendered posts/_form.html.erb (25.3ms)
+  Rendered posts/new.html.erb within layouts/application (42.3ms)
+  Rendered layouts/_navigation.html.erb (0.4ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 173ms (Views: 169.6ms | ActiveRecord: 0.4ms)
+
+
+Started DELETE "/sign_out" for 127.0.0.1 at 2013-08-24 14:43:11 -0700
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"DGYiS3uhbky731veevaVJ9Yb7sRy8e1p7Gp1ieTC9YU="}
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-24 14:43:11 -0700
+Processing by PostsController#index as HTML
+Redirected to http://localhost:3000/sign_in
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/sign_in" for 127.0.0.1 at 2013-08-24 14:43:11 -0700
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 42ms (Views: 41.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sign_in" for 127.0.0.1 at 2013-08-24 14:43:15 -0700
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 60ms (Views: 59.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sign_in" for 127.0.0.1 at 2013-08-24 14:44:54 -0700
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.9ms)
+  Rendered layouts/_navigation.html.erb (1.1ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 81ms (Views: 80.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-24 14:45:02 -0700
+Processing by PostsController#index as HTML
+Redirected to http://localhost:3000/sign_in
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/sign_in" for 127.0.0.1 at 2013-08-24 14:45:02 -0700
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 45ms (Views: 44.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2013-08-24 14:45:06 -0700
+Processing by PostsController#new as HTML
+Redirected to http://localhost:3000/sign_in
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/sign_in" for 127.0.0.1 at 2013-08-24 14:45:06 -0700
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+  Rendered layouts/_messages.html.erb (0.2ms)
+Completed 200 OK in 48ms (Views: 47.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/sign_in" for 127.0.0.1 at 2013-08-24 14:45:23 -0700
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"DGYiS3uhbky731veevaVJ9Yb7sRy8e1p7Gp1ieTC9YU=", "username"=>"amorphid", "password"=>"[FILTERED]", "commit"=>"Submit"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."username" = 'amorphid' LIMIT 1
+Redirected to http://localhost:3000/
+Completed 302 Found in 73ms (ActiveRecord: 0.3ms)
+
+
+Started POST "/sign_in" for 127.0.0.1 at 2013-08-24 14:45:34 -0700
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"DGYiS3uhbky731veevaVJ9Yb7sRy8e1p7Gp1ieTC9YU=", "username"=>"amorphid", "password"=>"[FILTERED]", "commit"=>"Submit"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."username" = 'amorphid' LIMIT 1[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 72ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-24 14:45:34 -0700
+Processing by PostsController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_navigation.html.erb (0.4ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 63ms (Views: 62.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2013-08-24 14:45:38 -0700
+Processing by PostsController#new as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered posts/_errors.html.erb (0.2ms)
+  Rendered posts/_form.html.erb (15.1ms)
+  Rendered posts/new.html.erb within layouts/application (32.3ms)
+  Rendered layouts/_navigation.html.erb (1.3ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 113ms (Views: 111.1ms | ActiveRecord: 0.2ms)
+
+
+Started DELETE "/sign_out" for 127.0.0.1 at 2013-08-24 14:45:39 -0700
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"DGYiS3uhbky731veevaVJ9Yb7sRy8e1p7Gp1ieTC9YU="}
+Redirected to http://localhost:3000/
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-24 14:45:39 -0700
+Processing by PostsController#index as HTML
+Redirected to http://localhost:3000/sign_in
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/sign_in" for 127.0.0.1 at 2013-08-24 14:45:39 -0700
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+  Rendered layouts/_messages.html.erb (0.2ms)
+Completed 200 OK in 45ms (Views: 44.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2013-08-24 14:45:55 -0700
+Processing by PostsController#new as HTML
+Redirected to http://localhost:3000/sign_in
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/sign_in" for 127.0.0.1 at 2013-08-24 14:45:55 -0700
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 54ms (Views: 53.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/sign_in" for 127.0.0.1 at 2013-08-24 14:46:12 -0700
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"DGYiS3uhbky731veevaVJ9Yb7sRy8e1p7Gp1ieTC9YU=", "username"=>"amorphid", "password"=>"[FILTERED]", "commit"=>"Submit"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."username" = 'amorphid' LIMIT 1[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 72ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-24 14:46:12 -0700
+Processing by PostsController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 49ms (Views: 47.2ms | ActiveRecord: 0.3ms)
+
+
+Started DELETE "/sign_out" for 127.0.0.1 at 2013-08-24 14:47:05 -0700
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"DGYiS3uhbky731veevaVJ9Yb7sRy8e1p7Gp1ieTC9YU="}
+Redirected to http://localhost:3000/
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-24 14:47:06 -0700
+Processing by PostsController#index as HTML
+Redirected to http://localhost:3000/sign_in
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/sign_in" for 127.0.0.1 at 2013-08-24 14:47:06 -0700
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.3ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 64ms (Views: 63.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sign_in" for 127.0.0.1 at 2013-08-24 14:47:41 -0700
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_navigation.html.erb (0.2ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 57ms (Views: 56.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/sign_in" for 127.0.0.1 at 2013-08-24 14:47:47 -0700
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"DGYiS3uhbky731veevaVJ9Yb7sRy8e1p7Gp1ieTC9YU=", "username"=>"amorphid", "password"=>"[FILTERED]", "commit"=>"Submit"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."username" = 'amorphid' LIMIT 1
+Redirected to http://localhost:3000/sign_in
+Completed 302 Found in 107ms (ActiveRecord: 0.7ms)
+
+
+Started GET "/sign_in" for 127.0.0.1 at 2013-08-24 14:47:47 -0700
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.9ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered layouts/_navigation.html.erb (1.5ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 49ms (Views: 47.5ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/sign_in" for 127.0.0.1 at 2013-08-24 14:47:58 -0700
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"DGYiS3uhbky731veevaVJ9Yb7sRy8e1p7Gp1ieTC9YU=", "username"=>"amorphid", "password"=>"[FILTERED]", "commit"=>"Submit"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."username" = 'amorphid' LIMIT 1
+Redirected to http://localhost:3000/sign_in
+Completed 302 Found in 73ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/sign_in" for 127.0.0.1 at 2013-08-24 14:47:58 -0700
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.6ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered layouts/_navigation.html.erb (0.9ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 60ms (Views: 59.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2013-08-24 14:48:03 -0700
+Processing by PostsController#new as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered posts/_errors.html.erb (0.1ms)
+  Rendered posts/_form.html.erb (25.3ms)
+  Rendered posts/new.html.erb within layouts/application (42.1ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 172ms (Views: 104.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-24 14:48:04 -0700
+Processing by PostsController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mPost Load (0.3ms)[0m  SELECT "posts".* FROM "posts"
+  Rendered posts/index.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_navigation.html.erb (0.4ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 54ms (Views: 51.2ms | ActiveRecord: 0.5ms)
+
+
+Started DELETE "/sign_out" for 127.0.0.1 at 2013-08-24 14:49:28 -0700
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"DGYiS3uhbky731veevaVJ9Yb7sRy8e1p7Gp1ieTC9YU="}
+Redirected to http://localhost:3000/
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-24 14:49:28 -0700
+Processing by PostsController#index as HTML
+Redirected to http://localhost:3000/sign_in
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/sign_in" for 127.0.0.1 at 2013-08-24 14:49:28 -0700
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.2ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+  Rendered layouts/_messages.html.erb (0.4ms)
+Completed 200 OK in 67ms (Views: 66.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/sign_in" for 127.0.0.1 at 2013-08-24 14:49:38 -0700
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"DGYiS3uhbky731veevaVJ9Yb7sRy8e1p7Gp1ieTC9YU=", "username"=>"amorphid", "password"=>"[FILTERED]", "commit"=>"Submit"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."username" = 'amorphid' LIMIT 1[0m
+Redirected to http://localhost:3000/sign_in
+Completed 302 Found in 90ms (ActiveRecord: 0.6ms)
+
+
+Started GET "/sign_in" for 127.0.0.1 at 2013-08-24 14:49:38 -0700
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.7ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered layouts/_navigation.html.erb (1.6ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 49ms (Views: 47.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-24 14:49:54 -0700
+Processing by PostsController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts"
+  Rendered posts/index.html.erb within layouts/application (2.4ms)
+  Rendered layouts/_navigation.html.erb (0.4ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 71ms (Views: 50.9ms | ActiveRecord: 0.9ms)
+
+
+Started DELETE "/sign_out" for 127.0.0.1 at 2013-08-24 14:49:58 -0700
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"DGYiS3uhbky731veevaVJ9Yb7sRy8e1p7Gp1ieTC9YU="}
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-24 14:49:58 -0700
+Processing by PostsController#index as HTML
+Redirected to http://localhost:3000/sign_in
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/sign_in" for 127.0.0.1 at 2013-08-24 14:49:58 -0700
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 44ms (Views: 43.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2013-08-24 14:50:04 -0700
+Processing by PostsController#index as HTML
+Redirected to http://localhost:3000/sign_in
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/sign_in" for 127.0.0.1 at 2013-08-24 14:50:04 -0700
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 48ms (Views: 47.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/sign_in" for 127.0.0.1 at 2013-08-24 14:50:11 -0700
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"DGYiS3uhbky731veevaVJ9Yb7sRy8e1p7Gp1ieTC9YU=", "username"=>"amorphid", "password"=>"[FILTERED]", "commit"=>"Submit"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."username" = 'amorphid' LIMIT 1[0m
+Redirected to http://localhost:3000/sign_in
+Completed 302 Found in 71ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/sign_in" for 127.0.0.1 at 2013-08-24 14:50:11 -0700
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.5ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered layouts/_navigation.html.erb (1.1ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 45ms (Views: 44.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-24 14:58:23 -0700
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (3.5ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered layouts/_navigation.html.erb (19.3ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 121ms (Views: 92.3ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-24 14:58:26 -0700
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (1.7ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered layouts/_navigation.html.erb (1.6ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 51ms (Views: 50.1ms | ActiveRecord: 0.3ms)
+
+
+Started DELETE "/sign_out" for 127.0.0.1 at 2013-08-24 14:58:28 -0700
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"DGYiS3uhbky731veevaVJ9Yb7sRy8e1p7Gp1ieTC9YU="}
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-24 14:58:28 -0700
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 45ms (Views: 44.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-24 14:58:30 -0700
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts"
+  Rendered posts/index.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 46ms (Views: 45.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/sign_in" for 127.0.0.1 at 2013-08-24 15:00:22 -0700
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 46ms (Views: 45.7ms | ActiveRecord: 0.0ms)

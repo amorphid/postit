@@ -1,17 +1,17 @@
 <h1>New Session</h1>
 
-<%= form_for(:session, url: sessions_path) do |i| %>
+<%= form_tag sign_in_path do %>
   <p>
-    <%= i.label :username %>
-    <%= i.text_field :username %>
+    <%= label_tag :username %>
+    <%= text_field_tag :username %>
   </p>
 
   <p>
-    <%= i.label :password %>
-    <%= i.password_field :password %>
+    <%= label_tag :password %>
+    <%= password_field_tag :password %>
   </p>
 
   <p>
-    <%= i.submit "Submit" %>
+    <%= submit_tag "Submit" %>
   </p>
 <% end %>
