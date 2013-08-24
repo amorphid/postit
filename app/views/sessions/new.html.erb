@@ -1,0 +1,17 @@
+<h1>New Session</h1>
+
+<%= form_for(:session, url: sessions_path) do |i| %>
+  <p>
+    <%= i.label :username %>
+    <%= i.text_field :username %>
+  </p>
+
+  <p>
+    <%= i.label :password %>
+    <%= i.password_field :password %>
+  </p>
+
+  <p>
+    <%= i.submit "Submit" %>
+  </p>
+<% end %>
