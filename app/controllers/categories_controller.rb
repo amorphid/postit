@@ -1,4 +1,6 @@
 class CategoriesController < ApplicationController
+  before_filter :authorize
+
   before_action :set_category, only: [:edit ,:update]
 
   def create

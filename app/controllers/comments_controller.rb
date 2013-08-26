@@ -1,9 +1,12 @@
 class CommentsController < ApplicationController
+  before_filter :authorize
+
   def create
     @post     = Post.find(params[:post_id])
     @comment  = Comment.new(comment_params)
     @comments = @post.comments # requires for "posts/show"
     @comment.post = @post
+    @comment.user = current_user
 
     if @comment.save
       redirect_to post_path(@post)

@@ -1,4 +1,6 @@
 class UsersController < ApplicationController
+  before_filter :authorize, except: :new
+
   def create
     @user = User.new(params_user)
 
@@ -16,6 +18,7 @@ class UsersController < ApplicationController
   def show
     @user = current_user
     @posts = @user.posts
+    @comments = @user.comments
   end
 
 private
