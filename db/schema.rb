@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20130824164254) do
+ActiveRecord::Schema.define(version: 20130826224012) do
 
   create_table "categories", force: true do |t|
     t.string   "name"
@@ -50,5 +50,14 @@ ActiveRecord::Schema.define(version: 20130824164254) do
   end
 
   add_index "users", ["username"], name: "index_users_on_username", unique: true
+
+  create_table "votes", force: true do |t|
+    t.integer  "user_id"
+    t.integer  "votable_id"
+    t.string   "votable_type"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.integer  "value"
+  end
 
 end

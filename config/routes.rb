@@ -4,9 +4,11 @@ PostitTemplate::Application.routes.draw do
 
   resources :posts do
     resources :comments
+    resources :votes, only: :create
   end
 
-  resources :users
+	
+  resources :users	
 
   get "/sign_in", to: "sessions#new"
   post "/sign_in", to: "sessions#create"
