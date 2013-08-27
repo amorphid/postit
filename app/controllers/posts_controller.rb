@@ -19,7 +19,7 @@ class PostsController < ApplicationController
 
   def index
     @posts = Post.all
-    @vote = Vote.new
+    # @vote = Vote.new
   end
 
   def new

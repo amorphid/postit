@@ -3,9 +3,9 @@
 <ul>
   <% @posts.each do |post| %>
     <li>
-    	<%= link_to "+", post_votes_path(post, value: 1), method: :post %>
-    	<%= link_to "-", post_votes_path(post, value: -1), method: :post %>
-    	<%= pluralize(post.votes.count, "vote") %><br />
+    	<%= link_to "\u25B2", post_votes_path(post, value: 1), method: :post %><br />
+      <%= score(post.votes) %><br />
+    	<%= link_to "\u25BC", post_votes_path(post, value: -1), method: :post %><br />
       <%= link_to post.title, "#{post.url}" %><br />
       <%= link_to "#{pluralize(post.comments.count, "comment")}", post_path(post) %>
     </li>

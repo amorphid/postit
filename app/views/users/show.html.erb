@@ -24,3 +24,15 @@
 	  <% end %>
 	</ul>
 <% end %>
+
+<% unless @comments.empty? %>
+	Comments:
+	<ul>
+	  <% @comments.each do |comment| %>
+	    <li>
+	      <%= comment.body %><br />
+	      (made on post <%= link_to comment.post.title, post_path(comment.post) %>)
+	    </li>
+	  <% end %>
+	</ul>
+<% end %>
