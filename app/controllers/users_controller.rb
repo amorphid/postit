@@ -1,5 +1,5 @@
 class UsersController < ApplicationController
-  before_filter :authorize, except: :new
+  before_filter :authorize, only: :show
 
   def create
     @user = User.new(params_user)
