@@ -18,7 +18,7 @@ class PostsController < ApplicationController
   end
 
   def index
-    @posts = Post.all
+    @posts = Post.all.sort_by { |i| i.score }.reverse
     # @vote = Vote.new
   end
 
