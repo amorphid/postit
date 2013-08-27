@@ -4,6 +4,7 @@
   <% @posts.each do |post| %>
     <li>
     	<%= link_to "+", post_votes_path(post, value: 1), method: :post %>
+    	<%= link_to "-", post_votes_path(post, value: -1), method: :post %>
     	<%= pluralize(post.votes.count, "vote") %><br />
       <%= link_to post.title, "#{post.url}" %><br />
       <%= link_to "#{pluralize(post.comments.count, "comment")}", post_path(post) %>
