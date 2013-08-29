@@ -17,7 +17,7 @@
 //= require bootstrap
 
 $(document).ready(function() {
-  $(".posts li").each(function(){
+  $(".voteable").each(function(){
     var preVoteScore = $(this).find("span.score");
 
     $(this).find("a.upvote").click(function(event){

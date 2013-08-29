@@ -1,8 +1,8 @@
 <h1>Posts</h1>
 
-<ul class="posts">
+<ul>
   <% @posts.each do |post| %>
-    <li>
+    <li class="voteable">
     	<%= link_to "", post_votes_path(post, value: 1), class: "icon-chevron-up upvote" %>
       <br />
       <span class="score">
