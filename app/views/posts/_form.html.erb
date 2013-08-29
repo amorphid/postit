@@ -12,6 +12,18 @@
   </p>
 
   <p>
+    <%= i.label :categories %>
+    <
+  </p>
+
+
+  <p>
+    <% @categories.each do |category| %>
+      <%= link_to category.name, class: "category" %>
+    <% end %>
+  </p>
+
+  <p>
     <%= i.submit "Submit" %>
   </p>
 <% end %>

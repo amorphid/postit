@@ -20,6 +20,10 @@ class VotesController < ApplicationController
 
 private
 
+  def find_or_initialize_vote
+    Vote.find_or_initialize_by(votable: set_votable, user_id: current_user.id)
+  end
+
   def identical?
     @vote.value == params[:value].to_i
   end
@@ -28,10 +32,11 @@ private
     @vote.value == params[:value].to_i * -1
   end
 
-	def find_or_initialize_vote
-		if params.has_key? :post_id
+  def set_votable
+    if params.has_key? :post_id
       @voteable = Post.find(params[:post_id])
-			Vote.find_or_initialize_by(votable: @voteable, user_id: current_user.id)
-		end
-	end
+    elsif params.has_key? :comment_id
+      @voteable = Comment.find(params[:comment_id])
+    end
+  end
 end
