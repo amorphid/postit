@@ -26101,3 +26101,78 @@ Processing by VotesController#create as JSON
   [1m[35m (1.4ms)[0m  commit transaction
   [1m[36mVote Load (0.2ms)[0m  [1mSELECT "votes".* FROM "votes" WHERE "votes"."votable_id" = ? AND "votes"."votable_type" = ?[0m  [["votable_id", 1], ["votable_type", "Post"]]
 Completed 200 OK in 8ms (Views: 0.1ms | ActiveRecord: 2.5ms)
+
+
+Started POST "/posts/1/votes?value=-1" for 127.0.0.1 at 2013-08-28 23:17:16 -0700
+Processing by VotesController#create as JSON
+  Parameters: {"value"=>"-1", "post_id"=>"1"}
+  [1m[35mUser Exists (0.2ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."id" = 2 LIMIT 1
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mPost Load (0.1ms)[0m  SELECT "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."id" = 2 LIMIT 1[0m
+  [1m[35mVote Load (0.2ms)[0m  SELECT "votes".* FROM "votes" WHERE "votes"."votable_type" = 'Post' AND "votes"."votable_id" = 1 AND "votes"."user_id" = 2 LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "votes" ("created_at", "updated_at", "user_id", "value", "votable_id", "votable_type") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Thu, 29 Aug 2013 06:17:16 UTC +00:00], ["updated_at", Thu, 29 Aug 2013 06:17:16 UTC +00:00], ["user_id", 2], ["value", -1], ["votable_id", 1], ["votable_type", "Post"]]
+  [1m[36m (1.3ms)[0m  [1mcommit transaction[0m
+  [1m[35mVote Load (0.1ms)[0m  SELECT "votes".* FROM "votes" WHERE "votes"."votable_id" = ? AND "votes"."votable_type" = ?  [["votable_id", 1], ["votable_type", "Post"]]
+Completed 200 OK in 9ms (Views: 0.1ms | ActiveRecord: 2.6ms)
+
+
+Started POST "/posts/1/votes?value=1" for 127.0.0.1 at 2013-08-28 23:17:17 -0700
+Processing by VotesController#create as JSON
+  Parameters: {"value"=>"1", "post_id"=>"1"}
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."id" = 2 LIMIT 1[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."id" = 2 LIMIT 1
+  [1m[36mVote Load (0.2ms)[0m  [1mSELECT "votes".* FROM "votes" WHERE "votes"."votable_type" = 'Post' AND "votes"."votable_id" = 1 AND "votes"."user_id" = 2 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mUPDATE "votes" SET "value" = ?, "updated_at" = ? WHERE "votes"."id" = 125[0m  [["value", 1], ["updated_at", Thu, 29 Aug 2013 06:17:17 UTC +00:00]]
+  [1m[35m (5.7ms)[0m  commit transaction
+  [1m[36mVote Load (0.2ms)[0m  [1mSELECT "votes".* FROM "votes" WHERE "votes"."votable_id" = ? AND "votes"."votable_type" = ?[0m  [["votable_id", 1], ["votable_type", "Post"]]
+Completed 200 OK in 14ms (Views: 0.1ms | ActiveRecord: 7.1ms)
+
+
+Started POST "/posts/1/votes?value=1" for 127.0.0.1 at 2013-08-28 23:17:17 -0700
+Processing by VotesController#create as JSON
+  Parameters: {"value"=>"1", "post_id"=>"1"}
+  [1m[35mUser Exists (0.1ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."id" = 2 LIMIT 1
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mPost Load (0.1ms)[0m  SELECT "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."id" = 2 LIMIT 1[0m
+  [1m[35mVote Load (0.1ms)[0m  SELECT "votes".* FROM "votes" WHERE "votes"."votable_type" = 'Post' AND "votes"."votable_id" = 1 AND "votes"."user_id" = 2 LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "votes" WHERE "votes"."id" = ?  [["id", 125]]
+  [1m[36m (1.4ms)[0m  [1mcommit transaction[0m
+  [1m[35mVote Load (0.2ms)[0m  SELECT "votes".* FROM "votes" WHERE "votes"."votable_id" = ? AND "votes"."votable_type" = ?  [["votable_id", 1], ["votable_type", "Post"]]
+Completed 200 OK in 7ms (Views: 0.1ms | ActiveRecord: 2.4ms)
+
+
+Started POST "/posts/1/votes?value=1" for 127.0.0.1 at 2013-08-28 23:17:18 -0700
+Processing by VotesController#create as JSON
+  Parameters: {"value"=>"1", "post_id"=>"1"}
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."id" = 2 LIMIT 1[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."id" = 2 LIMIT 1
+  [1m[36mVote Load (0.1ms)[0m  [1mSELECT "votes".* FROM "votes" WHERE "votes"."votable_type" = 'Post' AND "votes"."votable_id" = 1 AND "votes"."user_id" = 2 LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "votes" ("created_at", "updated_at", "user_id", "value", "votable_id", "votable_type") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Thu, 29 Aug 2013 06:17:18 UTC +00:00], ["updated_at", Thu, 29 Aug 2013 06:17:18 UTC +00:00], ["user_id", 2], ["value", 1], ["votable_id", 1], ["votable_type", "Post"]]
+  [1m[35m (1.2ms)[0m  commit transaction
+  [1m[36mVote Load (0.1ms)[0m  [1mSELECT "votes".* FROM "votes" WHERE "votes"."votable_id" = ? AND "votes"."votable_type" = ?[0m  [["votable_id", 1], ["votable_type", "Post"]]
+Completed 200 OK in 8ms (Views: 0.1ms | ActiveRecord: 2.2ms)
+
+
+Started POST "/posts/1/votes?value=1" for 127.0.0.1 at 2013-08-28 23:17:19 -0700
+Processing by VotesController#create as JSON
+  Parameters: {"value"=>"1", "post_id"=>"1"}
+  [1m[35mUser Exists (0.3ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."id" = 2 LIMIT 1
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."id" = 2 LIMIT 1[0m
+  [1m[35mVote Load (0.3ms)[0m  SELECT "votes".* FROM "votes" WHERE "votes"."votable_type" = 'Post' AND "votes"."votable_id" = 1 AND "votes"."user_id" = 2 LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  DELETE FROM "votes" WHERE "votes"."id" = ?  [["id", 126]]
+  [1m[36m (5.6ms)[0m  [1mcommit transaction[0m
+  [1m[35mVote Load (0.2ms)[0m  SELECT "votes".* FROM "votes" WHERE "votes"."votable_id" = ? AND "votes"."votable_type" = ?  [["votable_id", 1], ["votable_type", "Post"]]
+Completed 200 OK in 15ms (Views: 0.1ms | ActiveRecord: 7.1ms)

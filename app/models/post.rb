@@ -1,4 +1,6 @@
 class Post < ActiveRecord::Base
+  include Voteable
+
   belongs_to :user
 
   has_many :comments
@@ -9,10 +11,4 @@ class Post < ActiveRecord::Base
 
   validates :title, presence: true
   validates :url, presence: true
-
-  def score
-    upvotes = self.votes.select { |vote| vote.value == 1}
-    downvotes = self.votes.select { |vote| vote.value == -1}
-    upvotes.count - downvotes.count
-  end
 end
