@@ -1,12 +1,18 @@
 <h1>Posts</h1>
 
-<ul>
+<ul class="posts">
   <% @posts.each do |post| %>
     <li>
-    	<%= link_to "\u25B2", post_votes_path(post, value: 1), method: :post %><br />
-      <%= post.score %><br />
-    	<%= link_to "\u25BC", post_votes_path(post, value: -1), method: :post %><br />
-      <%= link_to post.title, "#{post.url}" %><br />
+    	<%= link_to "", post_votes_path(post, value: 1), class: "icon-chevron-up upvote" %>
+      <br />
+      <span class="score">
+        <%= post.score %>
+      </span>
+      <br />
+      <%= link_to "", post_votes_path(post, value: -1), class: "downvote icon-chevron-down" %>
+      <br />
+      <%= link_to post.title, "#{post.url}" %>
+      <br />
       <%= link_to "#{pluralize(post.comments.count, "comment")}", post_path(post) %>
     </li>
   <% end %>

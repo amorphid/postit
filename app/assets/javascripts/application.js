@@ -16,3 +16,32 @@
 //= require_tree .
 //= require bootstrap
 
+$(document).ready(function() {
+  $(".posts li").each(function(){
+    var preVoteScore = $(this).find("span.score");
+
+    $(this).find("a.upvote").click(function(event){
+      event.preventDefault();
+      $.ajax({
+        dataType: "json",
+        type: "POST",
+        url: $(this).attr("href"),
+        success: function(data) {
+          preVoteScore.text(data);
+        }
+      });
+    });
+
+    $(this).find("a.downvote").click(function(event){
+      event.preventDefault();
+      $.ajax({
+        dataType: "json",
+        type: "POST",
+        url: $(this).attr("href"),
+        success: function(data) {
+          preVoteScore.text(data);
+        }
+      });
+    });
+  });
+});

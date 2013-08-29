@@ -12,7 +12,10 @@ class VotesController < ApplicationController
       @vote.save
     end
 
-		redirect_to :back
+    respond_to do |format|
+      format.html { redirect_to :back }
+      format.json { render json: @voteable.score } # score is an integer
+    end
 	end
 
 private
@@ -22,13 +25,13 @@ private
   end
 
   def opposite?
-    @vote.value == -params[:value].to_i
+    @vote.value == params[:value].to_i * -1
   end
 
 	def find_or_initialize_vote
 		if params.has_key? :post_id
-      post = Post.find(params[:post_id])
-			Vote.find_or_initialize_by(votable: post, user_id: current_user.id)
+      @voteable = Post.find(params[:post_id])
+			Vote.find_or_initialize_by(votable: @voteable, user_id: current_user.id)
 		end
 	end
 end
