@@ -1,5 +1,8 @@
 <%= link_to "Edit", edit_post_path(@post) %>
 
+<p>
+  <%= @category.name %>
+</p>
 
 <p class="voteable">
   <%= link_to "", post_votes_path(@post, value: 1), class: "icon-chevron-up upvote" %>

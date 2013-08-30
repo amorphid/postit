@@ -9,39 +9,8 @@
 //
 // Read Sprockets README (https://github.com/sstephenson/sprockets#sprockets-directives) for details
 // about supported directives.
-//
 //= require jquery
 //= require jquery_ujs
+//= require jquery.turbolinks
 //= require turbolinks
 //= require_tree .
-//= require bootstrap
-
-$(document).ready(function() {
-  $(".voteable").each(function(){
-    var preVoteScore = $(this).find("span.score");
-
-    $(this).find("a.upvote").click(function(event){
-      event.preventDefault();
-      $.ajax({
-        dataType: "json",
-        type: "POST",
-        url: $(this).attr("href"),
-        success: function(data) {
-          preVoteScore.text(data);
-        }
-      });
-    });
-
-    $(this).find("a.downvote").click(function(event){
-      event.preventDefault();
-      $.ajax({
-        dataType: "json",
-        type: "POST",
-        url: $(this).attr("href"),
-        success: function(data) {
-          preVoteScore.text(data);
-        }
-      });
-    });
-  });
-});

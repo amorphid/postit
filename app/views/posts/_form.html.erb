@@ -12,14 +12,13 @@
   </p>
 
   <p>
-    <%= i.label :categories %>
-    <
-  </p>
-
-
-  <p>
+    <%= i.label :category_id, "Pick a category" %>
+    <%= i.hidden_field :category_id %>
+    <input type="text" value="jimmy" id="post_category" />
+    <br />
+    Choices:
     <% @categories.each do |category| %>
-      <%= link_to category.name, class: "category" %>
+    <%= link_to category.name, "", class: "category", data: { :"category-id" =>category.id } %>
     <% end %>
   </p>
 

@@ -1,6 +1,6 @@
 class Category < ActiveRecord::Base
   has_many :tags
-  has_many :posts, through: :post_categories
+  has_many :posts
 
-  validates :name, presence: true
+  validates :name, presence: true, uniqueness: true
 end
