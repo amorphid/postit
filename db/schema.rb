@@ -11,12 +11,13 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20130830223538) do
+ActiveRecord::Schema.define(version: 20130831051345) do
 
   create_table "categories", force: true do |t|
     t.string   "name"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "slug"
   end
 
   create_table "comments", force: true do |t|
@@ -34,6 +35,7 @@ ActiveRecord::Schema.define(version: 20130830223538) do
     t.datetime "created_at"
     t.datetime "updated_at"
     t.integer  "category_id"
+    t.string   "slug"
   end
 
   create_table "users", force: true do |t|
@@ -41,6 +43,7 @@ ActiveRecord::Schema.define(version: 20130830223538) do
     t.datetime "created_at"
     t.datetime "updated_at"
     t.string   "password_digest"
+    t.string   "slug"
   end
 
   add_index "users", ["username"], name: "index_users_on_username", unique: true
