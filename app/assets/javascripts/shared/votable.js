@@ -1,37 +1,30 @@
-// +1 vote for votables
-$(document).ready(function() {
-  $(".voteable").each(function(){
-    var preVoteScore = $(this).find("span.score");
-
-    $(this).find("a.upvote").click(function(event){
-      event.preventDefault();
-      $.ajax({
-        dataType: "json",
-        type: "POST",
-        url: $(this).attr("href"),
-        success: function(data) {
-          preVoteScore.text(data);
-        }
-      });
-    });
-  });
+$(document).ready(function(){
+  $(".downvote").click(downvote);
+  $(".upvote").click(upvote);
 });
 
-// -1 vote for votables
-$(document).ready(function() {
-  $(".voteable").each(function(){
-    var preVoteScore = $(this).find("span.score");
+function downvote(e){
+  e.preventDefault();
+  vote($(this));
+}
 
-    $(this).find("a.downvote").click(function(event){
-      event.preventDefault();
-      $.ajax({
-        dataType: "json",
-        type: "POST",
-        url: $(this).attr("href"),
-        success: function(data) {
-          preVoteScore.text(data);
-        }
-      });
-    });
+function upvote(e){
+  e.preventDefault();
+  vote($(this));
+}
+
+function vote(voteableLink) {
+  var preVoteScore = voteableLink.closest(".voteable").find(".score");
+  newVoteScore(voteableLink, preVoteScore)
+}
+
+function newVoteScore(voteableLink, oldScore) {
+  $.ajax({
+    dataType: "json",
+    type: "POST",
+    url: voteableLink.attr("href"),
+    success: function(newScore) {
+      oldScore.text(newScore);
+    }
   });
-});
+}
